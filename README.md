@@ -7,7 +7,7 @@
 
 This is the development repository for the **STMicroelectronics STM32C0116-DK Board Support Pack (BSP)** - a CMSIS software pack that is designed to work with all compiler toolchains (Arm Compiler, GCC, IAR, LLVM). It is released as [CMSIS software pack](https://www.keil.arm.com/packs/stm32c0116-dk_bsp-keil) and therefore accessible by CMSIS-Pack enabled software development tools.
 
-This BSP uses the generator integration of the [CMSIS-Toolbox to Configure STM32 Devices with CubeMX](https://github.com/Open-CMSIS-Pack/cmsis-toolbox/blob/main/docs/CubeMX.md) that is also supported in µVision 5.40 and higher.
+This BSP uses the generator integration of the [CMSIS-Toolbox to Configure STM32 Devices with CubeMX](https://open-cmsis-pack.github.io/cmsis-toolbox/CubeMX/) that is also supported in µVision 5.40 and higher.
 
 ## Repository top-level structure
 
@@ -22,7 +22,7 @@ Directory                   | Description
 
 ## Using the development repository
 
-This development repository can be used in a local directory and [mapped as software pack](https://github.com/Open-CMSIS-Pack/cmsis-toolbox/blob/main/docs/build-tools.md#install-a-repository) using for example `cpackget` with:
+This development repository can be used in a local directory and [mapped as software pack](https://open-cmsis-pack.github.io/cmsis-toolbox/build-tools#install-a-repository) using for example `cpackget` with:
 
     cpackget add <path>/Keil.STM32C0116-DK_BSP.pdsc
 
