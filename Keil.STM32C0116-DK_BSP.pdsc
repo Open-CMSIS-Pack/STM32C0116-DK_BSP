@@ -77,7 +77,6 @@
       <book category="schematic" name="https://www.st.com/resource/en/schematic_pack/mb1684-c011f6-b01-schematic.pdf" title="Schematics"/>
       <book category="other"     name="Documents/README.md" title="Guide"/>
       <mountedDevice    deviceIndex="0" Dvendor="STMicroelectronics:13" Dname="STM32C011F6Ux"/>
-      <compatibleDevice deviceIndex="0" Dvendor="STMicroelectronics:13" DsubFamily="STM32C011"/>
       <feature type="ODbg"      n="1"              name="On-board ST-LINK/V2-1"/>
       <feature type="PWR"       n="5"              name="USB Powered"/>
       <feature type="ConnOther" n="1"              name="JP1 (IDD) for current measurement"/>
