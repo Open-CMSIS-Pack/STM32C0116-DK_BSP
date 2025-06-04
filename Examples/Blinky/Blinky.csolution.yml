@@ -7,6 +7,14 @@ solution:
   select-compiler:
     - compiler: AC6
 
+  # List of miscellaneous tool-specific controls
+  misc:
+    - for-compiler: AC6
+      C-CPP:
+        - -gdwarf-5
+      ASM:
+        - -gdwarf-5
+
   # List the packs that define the device and/or board.
   packs:
     - pack: Keil::STM32C0xx_DFP@^2.1.0-0
